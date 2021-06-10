@@ -7,16 +7,16 @@ class Player{
     }
     movement(){
         if(keyDown("up")){
-            this.spt.y=this.spt.y-25;
+            this.spt.y=this.spt.y-20;
         }
         if(keyDown("down")){
-            this.spt.y=this.spt.y+25;
+            this.spt.y=this.spt.y+20;
         }
         if(keyDown("left")){
-            this.spt.x=this.spt.x-25;
+            this.spt.x=this.spt.x-20;
         }
         if(keyDown("right")){
-            this.spt.x=this.spt.x+25;
+            this.spt.x=this.spt.x+20;
         }
     }
 }
